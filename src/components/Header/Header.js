@@ -25,14 +25,15 @@ const Header = () => {
                 About Us
               </Nav.Link>
               <Nav.Link className="navlink" href="#pricing">
-                En <BsChevronDown />
+                EN <BsChevronDown className="arroicon" />
               </Nav.Link>
             </div>
             <Nav.Link href="#pricing">
               <button className="loginbtn">Login</button>
             </Nav.Link>
-            <Nav.Link href="#pricing">
-              <BsFillCartFill />
+            <Nav.Link href="#pricing" className="carditem">
+              <BsFillCartFill className="addtocardt" />
+              <span className="card-count">2</span>
             </Nav.Link>
           </Nav>
         </Container>

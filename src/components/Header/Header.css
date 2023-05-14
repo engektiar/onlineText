@@ -1,10 +1,15 @@
 .headermain {
-  background: #0fdbb6;
   border-bottom: 1px solid #3333;
+  text-align: center;
 }
 .manuItem {
   display: flex;
   padding-right: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.arroicon {
+  color: black;
 }
 .navlink {
   font-family: Poppins;
@@ -16,4 +21,39 @@
   text-transform: capitalize;
   margin-right: 20px;
   color: #3f3f3f;
+}
+.loginbtn {
+  width: 154px;
+  height: 50px;
+  background: #396c03;
+  border-radius: 225px;
+  border: none;
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+}
+.addtocardt {
+  background: #396c03;
+  width: 60px;
+  height: 60px;
+  left: 177px;
+  top: 5px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 12px;
+}
+.carditem {
+  position: relative;
+}
+.card-count {
+  position: absolute;
+  left: 52px;
+  background: #ff9310;
+  border-radius: 50%;
+  padding: 1px 6px;
+  color: #fff;
+  font-weight: bold;
 }
