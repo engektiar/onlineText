@@ -1,0 +1,85 @@
+.mainsection {
+  background-image: url("../../assets/banner/banner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+}
+.mainContain {
+  margin-top: 125px;
+  font-family: Merienda;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Merienda;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #396c03;
+  text-transform: capitalize;
+}
+.mainDes {
+  font-size: 24px;
+  color: #676767;
+  text-transform: capitalize;
+}
+.mainbtn {
+  width: 600px;
+  height: 63px;
+  border: 1px solid #3333;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.mainbutton {
+  background: #396c03;
+  border: none;
+  height: 60px;
+  color: #fff;
+  width: 178px;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+.redbutton {
+  background: #ff8b00;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.inputSectin {
+  width: 65%;
+  border: none;
+  height: 45px;
+  padding: 20px;
+}
+.mainright {
+  margin-top: 70px;
+}
+.topCard {
+  background: #878787;
+  width: 240px;
+  height: 118px;
+  text-align: center;
+  margin-left: 140px;
+  border-radius: 8px;
+}
+.cardDesc {
+  color: #fff;
+  font-size: 21px;
+}
+.cordcontent {
+  color: #ff8b00;
+  font-size: 40px;
+  font-weight: bold;
+}
